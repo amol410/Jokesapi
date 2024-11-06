@@ -170,6 +170,10 @@ python manage.py createsuperuser
 
 python manage.py runserver
 
+14. To Fetch Jokes API Endpoint
+
+http://127.0.0.1:8000/api/fetch_jokes/
+
  
 
 
