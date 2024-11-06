@@ -98,8 +98,6 @@ def fetch_jokes_from_api(num_jokes=100):
 8. Define views.py....remember to exempt csrf token otherwise it will show error
 
 from django.shortcuts import render
-
-# Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
